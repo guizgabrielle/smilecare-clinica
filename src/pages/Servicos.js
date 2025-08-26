@@ -1,5 +1,11 @@
 import React from 'react';
 
+const icones = {
+  "Limpeza Dental": "🪥",
+  "Clareamento": "✨",
+  "Implante": "🦷"
+};
+
 export default function Servicos() {
   const servicos = [
     { id: 1, nome: "Limpeza Dental", preco: "R$ 150,00" },
@@ -8,13 +14,18 @@ export default function Servicos() {
   ];
 
   return (
-    <section>
-      <h2>Serviços</h2>
-      <ul>
+    <section className="servicos-section">
+      <h2 className="servicos-titulo">Nossos Serviços</h2>
+      <div className="servicos-cards">
         {servicos.map(s => (
-          <li key={s.id}>{s.nome} - {s.preco}</li>
+          <div className="servico-card" key={s.id}>
+            <span className="servico-icone" role="img" aria-label={s.nome}>{icones[s.nome]}</span>
+            <h3>{s.nome}</h3>
+            <p className="servico-preco">{s.preco}</p>
+            <button className="servico-btn">Saiba mais</button>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
