@@ -16,10 +16,10 @@ export default function App() {
           
         </div>
         <nav>
-          <Link to="/">Início</Link>
-          <Link to="/servicos">Serviços</Link>
-          <Link to="/agendamento">Agendamento</Link>
-          <Link to="/contato">Contato</Link>
+          <a href="/">Início</a>
+          <a href="/servicos">Serviços</a>
+          <a href="/agendamento">Agendamento</a>
+          <a href="/contato">Contato</a>
         </nav>
       </header>
       <main>
