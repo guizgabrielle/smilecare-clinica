@@ -107,24 +107,8 @@ main {
 .agendamento-form select:focus {
   border: 1.5px solid #2196f3;
 }
-.btn-agendar {
-  width: 100%;
-  background: #2196f3;
-  color: #fff;
-  padding: 14px 0;
-  border-radius: 8px;
-  font-size: 1.15rem;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  margin-top: 12px;
-  box-shadow: 0 2px 8px rgba(33,150,243,0.13);
-  transition: background 0.2s;
-}
-.btn-agendar:hover {
-  background: #1976d2;
-}
-/* Moderno para a seção de contato */
+
+
 .contato-section {
   max-width: 650px;
   margin: 0 auto;
@@ -293,8 +277,7 @@ section > p {
   display: inline-block;
 }
 .btn-agendar:hover {
-  background: #ffd700;
-  color: #1976d2;
+  background: #5dbfd8;
   transform: scale(1.05);
 }
 

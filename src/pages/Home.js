@@ -23,9 +23,7 @@ export default function Home() {
           <p>Recupere dentes comprometidos com segurança.</p>
         </div>
       </div>
-      <div className="cta-agendamento">
-        <Link to="/agendamento" className="btn-agendar">Agende sua consulta</Link>
-      </div>
+      
       <div className="depoimentos">
         <h3>Depoimentos</h3>
         <blockquote>
