@@ -4,7 +4,7 @@ function Mapa() {
   return (
     <div className="mapa-container">
       <h3 className="mapa-titulo">
-        <span role="img" aria-label="localização">📍</span> Onde Estamos
+        <span role="img" aria-label="localização">📍</span> Localização
       </h3>
       <iframe
         title="Mapa da Clínica"
