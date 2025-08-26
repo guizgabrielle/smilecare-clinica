@@ -10,7 +10,10 @@ export default function App() {
     <Router>
       <header className="header">
         <div className="logo">
+          <Link to="/">
           <span role="img" aria-label="tooth">🦷</span> SmileCare
+          </Link>
+          
         </div>
         <nav>
           <Link to="/">Início</Link>

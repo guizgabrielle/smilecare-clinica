@@ -25,6 +25,15 @@ a:hover {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+.logo a {
+  text-decoration: none !important;
+  color: inherit;
+}
+.logo a:hover {
+  text-decoration: none !important;
+}
+
 nav a {
   color: #fff;
   margin-left: 32px;
