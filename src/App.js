@@ -32,10 +32,10 @@ export default function App() {
       </main>
       <footer className="footer">
         <div>
-          <span role="img" aria-label="location">📍</span> Rua do Sorriso, 123 - Centro, Cidade
+          <span role="img" aria-label="location"></span> Rua do Sorriso, 123 - Centro, Cidade
         </div>
         <div>
-          <span role="img" aria-label="phone">📞</span> (11) 99999-9999
+          <span role="img" aria-label="phone"></span> (11) 99999-9999
         </div>
         <div>
           © 2025 SmileCare Clínica Odontológica
