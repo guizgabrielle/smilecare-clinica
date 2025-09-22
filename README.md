@@ -4,9 +4,6 @@ Projeto fictício de site institucional para uma clínica odontológica, criado 
 
 ## 🛠 Tecnologias
 - React
-- React Router
-- Tailwind CSS
-- Axios
 - Deploy: Vercel
 
 ## 📄 Funcionalidades
@@ -16,7 +13,7 @@ Projeto fictício de site institucional para uma clínica odontológica, criado 
 - Página de contato com mapa e redes sociais
 
 ## 🚀 Deploy
-Acesse o projeto online: [link-do-vercel-aqui]
+Acesse o projeto online: https://smilecare-clinica.vercel.app/
 
 ## 🧠 Objetivo
 Desenvolvido como projeto de portfólio para demonstrar habilidades com React, componentes reutilizáveis, rotas e integração com API.
